@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastrarFragment">
+
+    <!-- Campo de Texto 1 -->
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Campo 1" />
+
+    <!-- Campo de Texto 2 -->
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText1"
+        android:layout_marginTop="20dp"
+        android:hint="Campo 2" />
+
+    <!-- Botão 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <!-- Botão 1 -->
+        <Button
+            android:id="@+id/botaoJogar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jogar" />
+
+        <!-- Botão 2 -->
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Botão 2" />
+
+        <!-- Botão 3 -->
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Botão 3" />
+
+    </LinearLayout>
+
+</RelativeLayout>
